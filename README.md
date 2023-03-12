@@ -10,9 +10,10 @@ Then (in the repo):
 
 1. Ensure that [`nodejs`](http://nodejs.org) (≥ 14.0.0) and [`ttfautohint`](http://www.freetype.org/ttfautohint/) are present, and accessible from `PATH`.
 2. Run `npm install`. This command will install **all** the NPM dependencies, and will also validate whether external dependencies are present.
-3. `npm run build -- ttf::iosevka-custom`.
+3. Move the `private-build-plans.toml` file into the repo.
+4. `npm run build -- ttf::iosevka-custom`.
 
-This will take some time. Once done, move fonts to `~/.local/share/fonts` and run `fc-cache`.
+This will take some time. Once done, move fonts from `dist` to `~/.local/share/fonts` and run `fc-cache`.
 
 ## Usage
 
