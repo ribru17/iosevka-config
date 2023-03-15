@@ -8,6 +8,7 @@ export-glyph-names = false
 [buildPlans.iosevka-custom.variants.design]
 at = "fourfold"
 lig-equal-chain = "without-notch"
+lig-hyphen-chain = "without-notch"
 
 [buildPlans.iosevka-custom.ligations]
 inherits = "dlig"
