@@ -12,8 +12,7 @@ Then:
 2. Run (in repo) `npm install`. This command will install **all** the NPM dependencies, and will also validate whether external dependencies are present.
 3. Move `private-build-plans.toml` into the repo.
 4. Run (in repo) `npm run build -- --jCmd=4 ttf::iosevka-custom` (this runs the build command with 4 threads to give the computer some room to breathe).
-
-This will take some time. Once done, move fonts from `dist` to `~/.local/share/fonts` and run `fc-cache`.
+5. This will take some time. Once done, move fonts from `dist` to `~/.local/share/fonts` and run `fc-cache`.
 
 ## Usage
 
